@@ -1,6 +1,6 @@
 # Bem-vindo ao FutFlix! :soccer:
 
-#### Repositório com o intuito de recriar a interface do Netflix
+#### Repositório com o intuito de recriar a interface do Netflix: https://nathanms1.github.io/FutFlix/
 
 ## O que utilizei para recriar:
 * HTML5
