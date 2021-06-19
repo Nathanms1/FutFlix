@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>FUTFLIX</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <div class="container"> <!--wrapper-->
+            <h2 class="logo">FUTFLIX</h2>
+            <nav>
+                <div class="menu"> 
+                    <a href="#">Início</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documentários</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Pelé: O Nascimento de uma Lenda</h3>
+                <p class="descricao">Pelé: O Nascimento de uma Lenda", também intitulado simplesmente "Pelé", é um filme norte-americano que narra a carreira do jogador de futebol brasileiro Pelé. Filmado no Rio de Janeiro e em Los Angeles. Dirigido pelos irmãos americanos Michael e Jeff Zimbalis. O filme também conta com a produção de Brian Grazer, com vasta experiência na transformação de histórias reais em sucessos cinematográficos, como sucedeu com Frost/Nixon, J. Edgar e Uma Mente Brilhante e com a trilha sonora composta por A. R. Rahman vencedor do Oscar pelo filme Slumdog Millionaire.</p>
+                <div class="botoes">
+                    <a href="https://www.youtube.com/watch?v=eSZlu-GTw2c" target="_blank"> <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    </a>
+                    <a href="https://www.themoviedb.org/movie/245913-pele?language=pt-BR" target="_blank"><button role="button" class="botao">
+                        <i class="fas fa-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--parte do carrossel p outros filmes/series-->
+    <div class="carrosel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=ImZlXga9gmg" target="_blank"><img class="box_filme" src="img/UmDiaSemFim.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=BMWlaRaXuic" target="_blank"><img class="box_filme" src="img/Barcelona.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=Pl4TeNy23vc" target="_blank"><img class="box_filme" src="img/CopaDoMundo.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=df02uvNc_dg" target="_blank"><img class="box_filme" src="img/Dale.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=iEYVDvV7mKE" target="_blank"><img class="box_filme" src="img/Grenal.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=YWOT5-vqLL4" target="_blank"><img class="box_filme" src="img/Inter.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=Je3RTDatMIY" target="_blank"><img class="box_filme" src="img/LevYashin.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=pAI9mMjiSHM" target="_blank"><img class="box_filme" src="img/Maradona.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=FB1eg4R9AfM" target="_blank"><img class="box_filme" src="img/TudoOuNadaBrasil.jpg" alt=""></a>
+            </div>
+    </div>
+
+    <!-- link JS, poderia ser linkado no head mas não é recomendavel pois a pag carrega sequencialmente e pode ser que o JS carregue antes da pag dando erro | links JS devem entao sempre ser as ultimas coisas a serem carregadas -->
+    <script src="https://kit.fontawesome.com/85df3bf6c1.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
