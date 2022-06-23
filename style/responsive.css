@@ -3,6 +3,7 @@
         display: flex;
         flex-direction: column; /* joga o menu pra baixo se a tela tiver menos de 700px*/
         margin-bottom: 8px;
+    
     }
 
     .filme-principal{
